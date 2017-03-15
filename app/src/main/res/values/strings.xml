@@ -15,4 +15,7 @@
     <string name="Lastname">Apellido: Teran Ortega</string>
     <string name="Age">Edad: 22 años</string>
     <string name="TeleNumber">Telefono: 7589742</string>
+    <string name="Email">Correo Electronico</string>
+    <string name="ooment">Comentario</string>
+    <string name="Actua">Actualizar</string>
 </resources>
