@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andresteran.parcial1.Principal_class">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/Logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:id="@+id/Text_ini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/Logo1"
+            android:text="@string/Name"/>
+        <TextView
+            android:id="@+id/Lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Text_ini"
+            android:layout_toRightOf="@id/Logo1"
+            android:text="@string/Lastname"/>
+        <TextView
+            android:id="@+id/AGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Lastname"
+            android:layout_toRightOf="@id/Logo1"
+            android:text="@string/Age"/>
+        <TextView
+            android:id="@+id/Tele_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AGE"
+            android:layout_toRightOf="@id/Logo1"
+            android:text="@string/TeleNumber"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
