@@ -27,11 +27,13 @@
                 android:layout_toRightOf="@id/buton2"
                 android:layout_alignParentEnd="true"
                 android:text="@string/Text1"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton3"
@@ -41,14 +43,16 @@
                 android:layout_below="@+id/buton1"
                 android:layout_toRightOf="@id/buton4"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton2"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton5"
@@ -58,13 +62,15 @@
                 android:layout_below="@id/buton3"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton4"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton7"
                 android:layout_width="wrap_content"
@@ -73,13 +79,15 @@
                 android:layout_below="@+id/buton5"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount" />
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton6"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton9"
@@ -89,13 +97,15 @@
                 android:layout_below="@id/buton8"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton7"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton11"
                 android:layout_width="wrap_content"
@@ -104,13 +114,15 @@
                 android:layout_below="@+id/buton9"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton9"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton13"
@@ -121,13 +133,15 @@
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
                 android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"
                 />
             <Button
                 android:id="@+id/buton14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton11"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton15"
@@ -137,13 +151,15 @@
                 android:layout_below="@id/buton14"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton13"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton17"
                 android:layout_width="wrap_content"
@@ -152,13 +168,15 @@
                 android:layout_below="@id/buton15"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton15"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton19"
@@ -168,13 +186,15 @@
                 android:layout_below="@id/buton17"
                 android:layout_toRightOf="@id/buton6"
                 android:layout_alignParentEnd="true"
-                android:onClick="goCreateAccount"/>
+                android:onClick="goCreateAccount"
+                android:theme="@style/StyleButton"/>
             <Button
                 android:id="@+id/buton20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/buton17"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:theme="@style/StyleButton"/>
 
             <Button
                 android:id="@+id/buton21"

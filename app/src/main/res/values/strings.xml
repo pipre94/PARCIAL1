@@ -18,4 +18,5 @@
     <string name="Email">Correo Electronico</string>
     <string name="ooment">Comentario</string>
     <string name="Actua">Actualizar</string>
+    <string name="str_title_toolbar">Volver a Lista Principal</string>
 </resources>
